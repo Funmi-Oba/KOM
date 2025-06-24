@@ -1,3 +1,6 @@
+
+@tailwind utilities;
+@import "tailwindcss/preflight";
 @import "tailwindcss";
 
 :root {
@@ -12,12 +15,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
 
 body {
   background: var(--background);
