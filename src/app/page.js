@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section>
      <Hero/>
-     <About/>
+     {/* <About/> */}
 
     </section>
   );
